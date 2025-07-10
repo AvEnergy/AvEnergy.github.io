@@ -15,6 +15,25 @@ body {
   padding: 0 1rem;
 }
 
+.project-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-left: 4px solid #007acc;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card a {
+  color: #007acc;
+  font-weight: bold;
+}
+
+
 /* Header */
 header {
   background-color: #007acc;
