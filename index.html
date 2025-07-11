@@ -6,50 +6,187 @@
   <title>Emerson McCabe | Game Developer Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<!-- File: index.html -->
 <body>
   <header>
     <h1>Emerson McCabe</h1>
     <p>Game Developer</p>
-    <p>C++ | Unreal Engine | Vulkan</p>
+    <p>C++ | Unreal Engine | Unity | Vulkan</p>
     <nav>
+      <a href="#About me">About Me</a>
+      <a href="#resume">Resume</a>
       <a href="#projects">Projects</a>
-      <a href="#code">Code</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
-  
-<div class="container">
+
+  <div class="container">
+    <section id="About me">
+      <h2>About Me</h2>
+      <p>I'm a game developer with a passion for creating immersive experiences. I specialize in C++ programming, Unreal
+        Engine development, and Vulkan graphics programming. My goal is to push the boundaries of interactive
+        entertainment.</p>
+      <p>With a strong foundation in computer science and a keen eye for detail, I enjoy tackling complex challenges and
+        bringing innovative ideas to life. Whether it's designing gameplay mechanics, optimizing performance, or crafting
+        engaging narratives, I strive to deliver high-quality games that captivate players.</p>
+      <p>In my free time, I love exploring new technologies, playing games, and collaborating with fellow developers. I'm
+        always eager to learn and grow in this dynamic industry.</p>
+    </section>
+
+<section id="resume">
+
+      <h2>Résumé and experiences</h2>
+
+    <div class="resume-center">
+      <a href="Media/MyResume.pdf" class="resume-download" target="_blank">📄 Download Résumé</a>
+    </div>
+
+    <div class="skills-columns">
+      <div class="skill-column">
+        <h3>Experience</h3>
+        <ul>
+          <li>C++</li>
+          <li>Unreal Engine</li>
+          <li>Unity</li>
+          <li>Vulkan / OpenGL</li>
+          <li>Git & Perforce</li>
+          <li>AI Behavior Trees</li>
+          <li>SCRUM</li>
+          <li>Gameplay Programming</li>
+        </ul>
+      </div>
+
+      <div class="skill-column">
+        <h3>Skills</h3>
+        <ul>
+          <li>Team Collaboration</li>
+          <li>Time Management</li>
+          <li>Problem Solving</li>
+          <li>Adaptability</li>
+          <li>Critical Thinking</li>
+          <li>Attention to Detail</li>
+          <li>Communication</li>
+          <li>Leadership</li>
+        </ul>
+      </div>
+    </div>
+</section>
+
   <section id="projects">
     <h2>Projects</h2>
     <div class="project-card">
-  <h3>SameDayDelivery</h3>
-  <img src="SameDayDelivery.png" alt="SameDayDeliveryPromoCard" class="project-image">
-  <p><strong>Engine:</strong> Unreal Engine 5</p>
-  <p>A wacky package delivery game where players pick up scattered packages and deliver them to wild destinations. Built in UE5 using behavior trees, animation-driven interactions, and custom gameplay logic.</p>
+      <h3>SameDayDelivery</h3>
+      <p><em>Currently in Development:</em></p>
+      <img src="Media/SameDayDelivery.png" alt="SameDayDeliveryPromoCard" class="project-image">
+      <p><strong>Engine:</strong> Unreal Engine 5</p>
 
-  <p>
-    🎮 <a href="https://well-played-studios.itch.io/same-day-delivery" target="_blank">Play on Itch.io</a>
-  </p>
+      <p>A wacky package delivery game where players pick up scattered packages and deliver them to wild destinations.
+        Built in UE5 using behavior trees, animation-driven interactions, and custom gameplay logic.</p>
 
-  <p><em>Project is version-controlled using Perforce.</em></p>
-</div>
+        <p><strong>Contributions:</strong></p>
+        <ul>
+          <li>Created blueprint scripts for gameplay mechanics</li>
+          <li>Optimized performance for smooth gameplay</li>
+          <li>Implemented NPCs and AI behaviors</li>
+          <li>Designed and implemented level layouts and challenges</li>
+          <li>Created equipment for the player to use to vary gameplay</li>
+          <li>Developed custom particle effects for various equipment.</li>
+          <li>Implemented sound tracks and playlist widgets</li>
+        </ul>
+      <p>
+        🎮 <a href="https://well-played-studios.itch.io/same-day-delivery" target="_blank">Play on Itch.io</a>
+      </p>
+  
+      <p><em>Project is version-controlled using Perforce.</em></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Galaxy Defenders</h3>
+      <img src="GalaxyDefenders.png" alt="GalaxyDefendersPromoCard" class="project-image">
+      <p><strong>Engine:</strong> Vulkan API</p>
+      <p>Galaxy Defenders is a twist on classic Asteroids gameplay. Players control a spaceship to destroy asteroids and push back the alien invaders.</p>
+      <p>This project was developed as part of my coursework at the FullSail University, focusing on Vulkan graphics programming and team coordination.</p>
+
+        <p><strong>Contributions:</strong></p>
+        <ul>
+          <li>Implemented audio systems and sound effects.</li>
+          <li>Implemented custom textures and shaders onto each mesh.</li>
+          <li>Designed and implemented stars in the background to enhance environment.</li>
+        </ul>
+
+      <p><em>Project is version-controlled using GitHub.</em></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Lone Drake</h3>
+      <img src="LoneDrake.png" alt="LoneDrakePromoCard" class="project-image">
+      <p><strong>Engine:</strong> Unity</p>
+      <p>Lone Drake is a first-person shooter with light RPG elements. You play as a baby dragon who wakes to find his mother
+        has been taken by an evil wizard.
+        To save her, you must navigate through a magical world—battling enemies, completing quests, and leveling up your
+        abilities.</p>
+      <p>This was the first full game I developed using Unity, and it gave me a chance to experience every part of the
+        development process.
+        I gained valuable experience in systems design, collaboration, and solving unexpected bugs under deadlines.
+        The project was a personal turning point where I realized I could take an idea from concept to playable experience.
+      </p>
+
+        <p><strong>Contributions:</strong></p>
+        <ul>
+          <li>Implemented audio systems and sound effects.</li>
+          <li>Created custom particle effects for various gameplay elements.</li>
+          <li>Designed beach environment and final level layout.</li>
+          <li>Designed and implemented quest systems and NPC interactions.</li>
+          <li>Developed custom shaders for enhanced visual effects.</li>
+          <li>Created main menu and UI elements.</li>
+          <li>Implemented level transitions.</li>
+          <li>Created leveling system and experience points mechanics.</li>
+        </ul>
+
+      <p><em>Project is version-controlled using GitHub.</em></p>
+    </div>
 
   </section>
 
-  <section id="code">
-    <h2>Code Samples</h2>
-    <p>Snippets and GitHub links will go here.</p>
-  </section>
-
-  <section id="contact">
+<section id="contact">
+  <div class="container">
     <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">yourprofile</a></p>
-  </section>
+    <p><strong>Email</strong>: edmccabe1800@gmail.com</p>
+    <p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/emerson-mccabe">LinkedIn Profile</a></p>
+    <p>If you'd like to reach out about job opportunities or collaborations, feel free to use the form below!</p>
+
+    <form action="https://formspree.io/f/xkgbdqgn" method="POST" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
 </div>
     <footer>
     <p>&copy; 2025 Emerson McCabe</p>
   </footer>
-</body>
+  
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".contact-form");
+
+    form.addEventListener("submit", function (event) {
+      // Wait until the form is submitted to the server (non-blocking)
+      setTimeout(() => {
+        form.reset(); // Clears all form fields
+      }, 100); // Small delay to allow Formspree to process first
+    });
+  });
+</script>
+
 </body>
 </html>
