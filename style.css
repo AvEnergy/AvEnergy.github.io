@@ -33,6 +33,13 @@ body {
   font-weight: bold;
 }
 
+.project-card iframe {
+  max-width: 100%;
+  border: none;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 
 /* Header */
 header {
