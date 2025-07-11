@@ -41,7 +41,7 @@ body {
 }
 
 .project-image {
-  max-width: 5%;
+  width: 150px;
   height: auto;
   border: 1px solid #ccc;
   margin: 0.5rem 0;
