@@ -40,7 +40,7 @@ body {
 .project-card iframe {
   max-width: 100%;
   border: none;
-  margin-top: 0.5rem;
+  margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -52,6 +52,23 @@ body {
   border-radius: 4px;
 }
 
+.media-row {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+.media-image {
+  width: 300px;
+  height: auto;
+}
+
+.media-video {
+  width: 560px;
+  height: 315px;
+}
 
 
 /* Header */
